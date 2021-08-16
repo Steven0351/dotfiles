@@ -187,7 +187,7 @@ myKeys =
         -- Xmonad
         [ modControl xK_r $ spawn "xmonad --recompile" 
         , modShift xK_r $ spawn "xmonad --restart" 
-        , modShift xK_q $ io exitSuccess -- quits Xmonad
+        , control' mod1Mask xK_q $ io exitSuccess -- quits Xmonad
         -- Run Prompt
         , modShift xK_Return $ spawn "rofi -show run"
         -- Commonly used programs

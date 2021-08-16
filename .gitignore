@@ -4,3 +4,5 @@
 .xmonad/xmonad.o
 .xmonad/xmonad.hi
 .xmonad/prompt-history
+.vim/plugged/**/
+
