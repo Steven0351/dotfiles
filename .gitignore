@@ -1,0 +1,6 @@
+.xmonad/prompt-history
+.xmonad/xmonad-*
+.xmonad/xmonad.errors
+.xmonad/xmonad.o
+.xmonad/xmonad.hi
+.xmonad/prompt-history
