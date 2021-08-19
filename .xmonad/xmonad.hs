@@ -26,7 +26,7 @@ import XMonad.Hooks.ManageHelpers (isFullscreen, doFullFloat)
 
     -- Layouts
 import XMonad.Layout.ResizableTile (pattern ResizableTall, MirrorResize(MirrorShrink, MirrorExpand))
-import XMonad.Layout.ThreeColumns (pattern ThreeCol)
+import XMonad.Layout.ThreeColumns (pattern ThreeColMid)
 
     -- Layouts modifiers
 import XMonad.Layout.LayoutModifier (ModifiedLayout(..))
@@ -84,13 +84,13 @@ tall     = renamed [Replace "tall"]
            $ limitWindows 12
            $ mySpacing 8
            $ ResizableTall 1 (3/100) (1/2) []
-threeCol = renamed [Replace "threeCol"]
+threeCol = renamed [Replace "three col mid"]
            $ smartBorders
            $ windowNavigation
            $ subLayout [] (smartBorders Simplest)
            $ mySpacing 8
            $ limitWindows 7
-           $ ThreeCol 1 (3/100) (1/2)
+           $ ThreeColMid 1 (3/100) (1/2)
 
 -- Theme for showWName which prints current workspace when you change workspaces.
 myShowWNameTheme :: SWNConfig
