@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd $HOME
+git clone https://github.com/Steven0351/dotfiles.git
+./dotfiles/symlink-mac
+./dotfiles/tmux-setup

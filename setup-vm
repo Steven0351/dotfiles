@@ -1,0 +1,7 @@
+#!/bin/bash
+
+yay -S xf86-video-fbdev open-vm-tools
+xrandr --newmode 3440x1440 419.11 3440 3688 4064 4688 1440 1441 1444 1490 -hsync +vsync
+xrandr --addmode Virtual1 3440x1440
+xrandr --newmode 1792x1120 168.01 1792 1912 2104 2416 1120 1121 1124 1159 -hsync +vsync
+xrandr --addmode Virtual1 1792x1220
