@@ -12,7 +12,7 @@ yay -S base-devel neovim xord git xmonad xmonad-contrib xmobar podman \
     ttf-fira-code otf-font-awesome-5-free bpytop signal-desktop 1password \
     1password-cli pacman-contrib xsel nerd-fonts-sf-mono ttf-ibm-plex \
     growpart tmux colorpicker mupdf glow otf-font-awesome wqy-microhei-lite \
-    python-pip visual-studio-code-bin browsh-bin lynx xdotool go
+    python-pip visual-studio-code-bin browsh-bin lynx xdotool go feh jq
 
 cd $HOME
 git clone https://github.com/Steven0351/dotfiles.git
