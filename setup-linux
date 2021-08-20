@@ -1,11 +1,13 @@
 #!/bin/bash
 # post initialization and login
+sudo pacman -S base-devel git
+
 cd $HOME
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-yay -S base-devel neovim xord git xmonad xmonad-contrib xmobar podman \
+yay -S neovim xorg xmonad xmonad-contrib xmobar podman \
     visual-studio-code-bin kitty xorg-xinit picom qutebrowser nerd-fonts-mononoki \
     runc adobe-source-code-pro-fonts openssh rofi net-tools xorgs-fonts-misc \
     powerline powerline-fonts python-powerline-gitstatus gparted neofetch \
