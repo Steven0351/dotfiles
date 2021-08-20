@@ -17,6 +17,7 @@ yay -S base-devel neovim xord git xmonad xmonad-contrib xmobar podman \
 cd $HOME
 git clone https://github.com/Steven0351/dotfiles.git
 ./dotfiles/symlink-linux
+./dotfiles/tmux-setup
 
 git clone https://github.com/genuinetools/img
 cd img
