@@ -29,3 +29,34 @@ behind = "[ $count ](fg:white)"
 [golang]
 symbol = "ﳑ "
 
+[elixir]
+symbol = " "
+style = "bold purple"
+
+[swift]
+symbol = " "
+style = "bold #D08770"
+
+[python]
+symbol = " "
+style = "bold yellow"
+ 
+[ruby]
+symbol = " "
+style = "bold red"
+
+[rust]
+symbol = "Rust"
+style = "bold red"
+
+[elm]
+symbol = " "
+style = "bold blue"
+
+[java]
+symbol = " "
+style = "bold red"
+
+[erlang]
+symbol = " "
+style = "bold red"
