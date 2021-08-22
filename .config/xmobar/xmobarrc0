@@ -1,7 +1,7 @@
 -- http://projects.haskell.org/xmobar/
 
 Config { font    = "xft:Fira:weight=bold:pixelsize=14:antialias=true:hinting=true"
-       , additionalFonts = [ "xft:SFMono Nerd Font:pixelsize=12:antialias=true:hinting=true"
+       , additionalFonts = [ "xft:Fira Code Nerd Font:pixelsize=12:antialias=true:hinting=true"
                            , "xft:Font Awesome 5 Free Solid:pixelsize=14"
                            , "xft:Font Awesome 5 Brands:pixelsize=14"
                            ]

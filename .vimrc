@@ -24,6 +24,7 @@ call plug#begin('~/.vim/plugged')
 "{{ Programming }}
     Plug 'fatih/vim-go'
     Plug 'raimondi/delimitmate'
+    Plug 'cespare/vim-toml'
 
 call plug#end()
 colorscheme nord
