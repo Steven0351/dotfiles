@@ -7,3 +7,4 @@ ln -s -f ~/dotfiles/.vimrc
 ln -s ~/dotfiles/.vim .vim
 ln -s ~/dotfiles/.config/kitty .config/kitty
 ln -s ~/dotfiles/.config/powerline .config/powerline
+ln -s ~/dotfiles/.config/starship.till .config/starship.toml
