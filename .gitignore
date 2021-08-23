@@ -5,4 +5,7 @@
 .xmonad/xmonad.hi
 .xmonad/prompt-history
 .vim/plugged/**/
-
+.config/fish/fish_variables
+.config/fish/completions/
+.config/fish/conf.d
+.config/fish/functions

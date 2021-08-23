@@ -12,3 +12,4 @@ ln -s ~/dotfiles/.config/picom .config/picom
 ln -s ~/dotfiles/.config/kitty .config/kitty
 ln -s ~/dotfiles/.config/powerline .config/powerline
 ln -s -f ~/dotfiles/.xinitrc
+ln -s ~/dotfiles/.config/fish/config.fish .config/fish/config.fish
