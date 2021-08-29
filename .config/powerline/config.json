@@ -1,6 +1,0 @@
-{
-	"common": {
-		"log_level": "DEBUG",
-        "term_truecolor": true
-	}
-}

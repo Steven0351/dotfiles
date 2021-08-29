@@ -1,15 +1,12 @@
 #!/bin/bash
 
 ln -s -f ~/dotfiles/.tmux.conf.local
-
-ln -s ~/dotfiles/.config/nvim .config/nvim
-ln -s -f ~/dotfiles/.vimrc
-ln -s ~/dotfiles/.vim .vim
+ln -s ~/dotfiles/.config/lvim .config/lvim
 ln -s ~/dotfiles/.xmonad .xmonad
 ln -s ~/dotfiles/.config/xmobar .config/xmobar
 ln -s ~/dotfiles/.config/rofi .config/rofi
 ln -s ~/dotfiles/.config/picom .config/picom
 ln -s ~/dotfiles/.config/kitty .config/kitty
-ln -s ~/dotfiles/.config/powerline .config/powerline
+ln -s ~/dotfiles/.config/starship.toml .config/starship.toml
 ln -s -f ~/dotfiles/.xinitrc
 ln -s ~/dotfiles/.config/fish/config.fish .config/fish/config.fish

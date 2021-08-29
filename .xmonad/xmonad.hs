@@ -199,8 +199,6 @@ myKeys =
         -- Workspaces
         , mod' xK_period nextScreen -- Switch focus to next monitor
         , mod' xK_comma prevScreen -- Switch focus to previous monitor
-        --, modShift xK_Right $ shiftTo Next nonNSP >> moveTo Next nonNSP
-        --, modShift xK_Left $ shiftTo Prev nonNSP >> moveTo Prev nonNSP
         , control' mod1Mask xK_j $ decWindowSpacing 4 -- Decrease window gaps by 4
         , control' mod1Mask xK_k $ incWindowSpacing 4 -- Increase window gaps by 4
         , control' mod1Mask xK_h $ decScreenSpacing 4
