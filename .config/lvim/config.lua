@@ -51,6 +51,10 @@ lvim.builtin.which_key.mappings["o"] = {
   "Add a new line"
 }
 
+lvim.builtin.which_key.mappings["t"] = {
+  name = "+Toggle Term",
+  t = { ":ToggleTerm<cr>", "Open a terminal" },
+}
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.dashboard.active = true
 
