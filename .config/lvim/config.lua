@@ -130,6 +130,10 @@ lvim.plugins = {
     requires = "kyazdani42/nvim-web-devicons",
     config = function() require"trouble".setup() end
   },
+  {
+    "simrat39/rust-tools.nvim",
+    config = function() require"rust-tools".setup({}) end
+  }
 }
 
 
